@@ -9,8 +9,9 @@ int main() {
 	// The main function is the entrypoint of the program. When the program
 	// is executed, it will automatically start here.
     srand(time(NULL));
-    int myrand = rand() % 11;
+    int myrand = rand() % 11; //Generate random number
 
+    //Logic statements for myrand values
     if (myrand <= 4) {
         printf("Eat more beef, kick less cats\n");
 
@@ -21,7 +22,7 @@ int main() {
         printf("Larn is the best roguelike\n");
     }
 
-    printf("The random number was: %d\n", myrand);
+    printf("The random number was: %d\n", myrand); //Print random number used
 
     return 0;
 	// TODO Complete the program
